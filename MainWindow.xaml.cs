@@ -19,6 +19,7 @@ namespace trpo_pract6_Savitsin
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Navigate(new DeliveryOrderPage());
         }
     }
 }

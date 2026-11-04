@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\projects\\trpo_pract6_Savitsin\\trpo_pract6_Savitsin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB01DE9A-6E6C-4772-8F58-A695FA1E7696}|trpo_pract6_Savitsin.csproj|c:\\program files (x86)\\projects\\trpo_pract6_savitsin\\trpo_pract6_savitsin\\deliveryinformationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DB01DE9A-6E6C-4772-8F58-A695FA1E7696}|trpo_pract6_Savitsin.csproj|solutionrelative:deliveryinformationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB01DE9A-6E6C-4772-8F58-A695FA1E7696}|trpo_pract6_Savitsin.csproj|c:\\program files (x86)\\projects\\trpo_pract6_savitsin\\trpo_pract6_savitsin\\deliveryorderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DB01DE9A-6E6C-4772-8F58-A695FA1E7696}|trpo_pract6_Savitsin.csproj|solutionrelative:deliveryorderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 321,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeliveryOrderPage.xaml",
+              "DocumentMoniker": "C:\\Program Files (x86)\\projects\\trpo_pract6_Savitsin\\trpo_pract6_Savitsin\\DeliveryOrderPage.xaml",
+              "RelativeDocumentMoniker": "DeliveryOrderPage.xaml",
+              "ToolTip": "C:\\Program Files (x86)\\projects\\trpo_pract6_Savitsin\\trpo_pract6_Savitsin\\DeliveryOrderPage.xaml",
+              "RelativeToolTip": "DeliveryOrderPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-04T13:58:59.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeliveryInformationPage.xaml",
+              "DocumentMoniker": "C:\\Program Files (x86)\\projects\\trpo_pract6_Savitsin\\trpo_pract6_Savitsin\\DeliveryInformationPage.xaml",
+              "RelativeDocumentMoniker": "DeliveryInformationPage.xaml",
+              "ToolTip": "C:\\Program Files (x86)\\projects\\trpo_pract6_Savitsin\\trpo_pract6_Savitsin\\DeliveryInformationPage.xaml",
+              "RelativeToolTip": "DeliveryInformationPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-04T13:59:53.795Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
