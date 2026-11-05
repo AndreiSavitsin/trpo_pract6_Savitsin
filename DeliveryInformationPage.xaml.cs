@@ -24,5 +24,17 @@ namespace trpo_pract6_Savitsin
         {
             InitializeComponent();
         }
+
+        private void CancelOrderBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var result = MessageBox.Show("Вы уверены, что хотите отменить доставку?",
+                "Внимание",
+                MessageBoxButton.YesNo, MessageBoxImage.Warning);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                NavigationService.Navigate(new DeliveryOrderPage());
+            }
+        }
     }
 }

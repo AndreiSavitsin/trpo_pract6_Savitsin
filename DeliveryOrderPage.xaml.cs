@@ -23,11 +23,36 @@ namespace trpo_pract6_Savitsin
         public DeliveryOrderPage()
         {
             InitializeComponent();
+            if (Agreement.IsChecked == false)
+            {
+                btnMakeOrder.IsEnabled = false;
+            }
+            else
+            {
+                btnMakeOrder.IsEnabled = true;
+            }
         }
 
         private void btnMakeOrder_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new DeliveryInformationPage());
+        }
+
+        private void ChangeThemeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            ThemeHelper.Toggle();
+        }
+
+        private void Agreement_Click(object sender, RoutedEventArgs e)
+        {
+            if (Agreement.IsChecked == false)
+            {
+                btnMakeOrder.IsEnabled = false;
+            }
+            else
+            {
+                btnMakeOrder.IsEnabled = true;
+            }
         }
     }
 }
