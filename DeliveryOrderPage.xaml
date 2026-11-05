@@ -12,6 +12,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         
@@ -22,42 +23,42 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical">
-            <TextBlock Text="Введите адрес"/>
-            <TextBox/>
+        <StackPanel Margin="5" Grid.Row="0" Grid.Column="0">
+            <TextBlock Margin="5" Text="Введите адрес"/>
+            <TextBox Margin="5"/>
         </StackPanel>
 
-        <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical">
-            <TextBlock Text="Выберите способ доставки"/>
-            <ComboBox>
+        <StackPanel Margin="5" Grid.Row="0" Grid.Column="1">
+            <TextBlock Margin="5" Text="Выберите способ доставки"/>
+            <ComboBox Margin="5">
                 <ComboBoxItem Content="Самовывоз"/>
                 <ComboBoxItem Content="Курьер"/>
             </ComboBox>
         </StackPanel>
 
-        <StackPanel Orientation="Vertical" Grid.Row="0" Grid.Column="2">
-            <TextBlock Text="Выберите способ оплаты"/>
-            <ComboBox>
+        <StackPanel Margin="5" Grid.Row="0" Grid.Column="2">
+            <TextBlock Margin="5" Text="Выберите способ оплаты"/>
+            <ComboBox Margin="5">
                 <ComboBoxItem Content="Карта"/>
                 <ComboBoxItem Content="Наличные"/>
             </ComboBox>
         </StackPanel>
 
-        <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="0">
-            <TextBlock Text="Введите примечание"/>
-            <TextBox AcceptsReturn="True" TextWrapping="Wrap"/>
+        <StackPanel Margin="5" Grid.Row="1" Grid.Column="0">
+            <TextBlock Margin="5" Text="Введите примечание"/>
+            <TextBox Margin="5"/>
         </StackPanel>
 
-        <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="1">
-            <RadioButton Content="Ускоренная доставка"/>
-            <RadioButton Content="Медленная доставка"/>
+        <StackPanel Margin="5" Grid.Row="1" Grid.Column="1">
+            <RadioButton Margin="5" Content="Ускоренная доставка"/>
+            <RadioButton Margin="5" Content="Медленная доставка"/>
         </StackPanel>
 
-        <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="2">
-            <CheckBox Content="Пользовательское соглашение"/>
-            <CheckBox Content="Отправка данных на почту"/>
+        <StackPanel Margin="5" Grid.Row="1" Grid.Column="2">
+            <CheckBox Margin="5" Content="Пользовательское соглашение"/>
+            <CheckBox Margin="5" Content="Отправка данных на почту"/>
         </StackPanel>
 
-        <Button Grid.Row="2" Grid.Column="0" Content="Заказать"/>
+        <Button x:Name="btnMakeOrder" Style="{StaticResource PrimaryButton}" Grid.Row="2" Grid.Column="0" Content="Заказать" Click="btnMakeOrder_Click"/>
     </Grid>
 </Page>

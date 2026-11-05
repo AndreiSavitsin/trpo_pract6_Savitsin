@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="AppBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="AppForeground" Color="#333333"/>
+
+    <SolidColorBrush x:Key="PrimaryBg" Color="#0078D4"/>
+    <SolidColorBrush x:Key="PrimaryHover" Color="#106EBE"/>
+    <SolidColorBrush x:Key="PrimaryPressed" Color="#005A9E"/>
+    <SolidColorBrush x:Key="PrimaryBorder" Color="#0078D4"/>
+
+    <SolidColorBrush x:Key="SecondaryBg" Color="Transparent"/>
+    <SolidColorBrush x:Key="SecondaryHover" Color="#F3F3F3"/>
+    <SolidColorBrush x:Key="SecondaryBorder" Color="#C8C8C8"/>
+
+    <SolidColorBrush x:Key="DangerBg" Color="Transparent"/>
+    <SolidColorBrush x:Key="DangerHover" Color="#FDE7E9"/>
+    <SolidColorBrush x:Key="DangerBorder" Color="#C42B1C"/>
+    <SolidColorBrush x:Key="DangerText" Color="#C42B1C"/>
+
+</ResourceDictionary>

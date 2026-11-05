@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{DB01DE9A-6E6C-4772-8F58-A695FA1E7696}|trpo_pract6_Savitsin.csproj|solutionrelative:deliveryinformationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DB01DE9A-6E6C-4772-8F58-A695FA1E7696}|trpo_pract6_Savitsin.csproj|c:\\program files (x86)\\projects\\trpo_pract6_savitsin\\trpo_pract6_savitsin\\styles\\ui\\inputs.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DB01DE9A-6E6C-4772-8F58-A695FA1E7696}|trpo_pract6_Savitsin.csproj|solutionrelative:styles\\ui\\inputs.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB01DE9A-6E6C-4772-8F58-A695FA1E7696}|trpo_pract6_Savitsin.csproj|c:\\program files (x86)\\projects\\trpo_pract6_savitsin\\trpo_pract6_savitsin\\styles\\ui\\buttons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DB01DE9A-6E6C-4772-8F58-A695FA1E7696}|trpo_pract6_Savitsin.csproj|solutionrelative:styles\\ui\\buttons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB01DE9A-6E6C-4772-8F58-A695FA1E7696}|trpo_pract6_Savitsin.csproj|c:\\program files (x86)\\projects\\trpo_pract6_savitsin\\trpo_pract6_savitsin\\deliveryorderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DB01DE9A-6E6C-4772-8F58-A695FA1E7696}|trpo_pract6_Savitsin.csproj|solutionrelative:deliveryorderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -18,11 +26,35 @@
       "DocumentGroups": [
         {
           "DockedHeight": 321,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Buttons.xaml",
+              "DocumentMoniker": "C:\\Program Files (x86)\\projects\\trpo_pract6_Savitsin\\trpo_pract6_Savitsin\\Styles\\UI\\Buttons.xaml",
+              "RelativeDocumentMoniker": "Styles\\UI\\Buttons.xaml",
+              "ToolTip": "C:\\Program Files (x86)\\projects\\trpo_pract6_Savitsin\\trpo_pract6_Savitsin\\Styles\\UI\\Buttons.xaml",
+              "RelativeToolTip": "Styles\\UI\\Buttons.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-05T10:15:34.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Inputs.xaml",
+              "DocumentMoniker": "C:\\Program Files (x86)\\projects\\trpo_pract6_Savitsin\\trpo_pract6_Savitsin\\Styles\\UI\\Inputs.xaml",
+              "RelativeDocumentMoniker": "Styles\\UI\\Inputs.xaml",
+              "ToolTip": "C:\\Program Files (x86)\\projects\\trpo_pract6_Savitsin\\trpo_pract6_Savitsin\\Styles\\UI\\Inputs.xaml",
+              "RelativeToolTip": "Styles\\UI\\Inputs.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-05T10:09:48.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DeliveryOrderPage.xaml",
               "DocumentMoniker": "C:\\Program Files (x86)\\projects\\trpo_pract6_Savitsin\\trpo_pract6_Savitsin\\DeliveryOrderPage.xaml",
               "RelativeDocumentMoniker": "DeliveryOrderPage.xaml",

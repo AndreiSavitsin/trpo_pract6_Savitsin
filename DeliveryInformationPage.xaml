@@ -22,18 +22,19 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <StackPanel Orientation="Vertical" Grid.Row="0" Grid.Column="0">
-            <TextBlock Text="Адрес"/>
-            <TextBox Grid.Row="0" Grid.Column="0" IsReadOnly="True"/>
+        <StackPanel Margin="5" Grid.Row="0" Grid.Column="0">
+            <TextBlock Margin="5" Text="Адрес"/>
+            <TextBox Margin="5" Grid.Row="0" Grid.Column="0"/>
         </StackPanel>
 
-        <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="0">
-            <TextBlock Text="Примечание"/>
-            <TextBox IsReadOnly="True" AcceptsReturn="True" TextWrapping="Wrap"/>
+        <StackPanel Margin="5" Grid.Row="1" Grid.Column="0">
+            <TextBlock Margin="5" Text="Примечание"/>
+            <TextBox Margin="5"/>
         </StackPanel>
 
-        <StackPanel Orientation="Vertical" Grid.Row="2" Grid.Column="0">
-            <ProgressBar Value="10" Minimum="0" Maximum="100"/>
+        <StackPanel Margin="5" Grid.Row="2" Grid.Column="0">
+            <TextBlock Margin="5" Text="Прогресс доставки:"/>
+            <ProgressBar Margin="5" Minimum="0" Maximum="100"/>
             <Button Content="Связаться с поддержкой"/>
             <Button Content="Изменить адрес"/>
             <Button Content="Отменить доставку"/>

@@ -24,5 +24,10 @@ namespace trpo_pract6_Savitsin
         {
             InitializeComponent();
         }
+
+        private void btnMakeOrder_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new DeliveryInformationPage());
+        }
     }
 }
